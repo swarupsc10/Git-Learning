@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>Namaste Sandarbh</h1>
-</body>
+    <style>
+      nav {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        align-items: center;
+      }
+      .nav-menu {
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 300px;
+        width: 40%;
+        padding:0;
+        align-items: center;
+        justify-content: space-around;
+      }
+      .nav-options{
+        padding:5px;
+        border-radius: 3px;
+      }
+      .nav-options:hover{
+        border: 1px solid black;
+        font-weight: bold;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <span class="logo"><img src="" alt="logo.png" /></span>
+      <ul class="nav-menu">
+        <span class="nav-options">Home</span>
+        <span class="nav-options">About Us</span>
+        <span class="nav-options">Testimony</span>
+      </ul>
+      <span class="contact">Contact Us</span>
+    </nav>
+  </body>
 </html>
